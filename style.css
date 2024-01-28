@@ -1,8 +1,42 @@
+@font-face {
+	font-family: 'Young Serif';
+	src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+	font-family: Outfit;
+	src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+:root {
+	font-family: 'Outfit';
+	color: hsl(24, 5%, 18%);
+}
+
+h1,
+h2 {
+	font-family: 'Young Serif';
+}
+
+h2,
+li::marker,
+.nutritional-value {
+	color: hsl(14, 45%, 36%);
+}
+
+h3 {
+	color: hsl(332, 51%, 32%);
+}
+
 .attribution {
-  font-size: 11px;
-  text-align: center;
+	font-size: 11px;
+	text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+	color: hsl(228, 45%, 44%);
+}
+
+li::marker,
+.nutritional-value {
+	font-weight: 800;
 }
