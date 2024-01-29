@@ -10,6 +10,26 @@
 :root {
 	font-family: 'Outfit';
 	color: hsl(24, 5%, 18%);
+	background-color: hsl(30, 54%, 90%);
+}
+
+.wrapper {
+	width: 75ch;
+	margin: 0 auto;
+	padding: 2rem;
+	border-radius: 1rem;
+	background-color: hsl(0, 0%, 100%);
+}
+
+img {
+	max-width: 100%;
+	border-radius: 1rem;
+}
+
+#preparation-time {
+	background-color: hsl(330, 100%, 98%);
+	padding: 1rem 2rem;
+	border-radius: 1rem;
 }
 
 h1,
@@ -39,4 +59,26 @@ h3 {
 li::marker,
 .nutritional-value {
 	font-weight: 800;
+}
+
+ol,
+ul {
+	padding-left: 1.5rem;
+}
+
+li {
+	padding: 1rem 0 0 0.5em;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr:not(:first-child) {
+	border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+td {
+	padding: 0.5em 1em;
 }
